@@ -34,7 +34,7 @@ $(document).ready(function(){
         // alert(obj_send);
         obj_send.x = msg.obj_x;
         obj_send.y = msg.obj_y;
-        
+
         //!!!!!!Don't forget to update the canvas!!!!!!!!!!!!
         stage.update();
 
@@ -57,7 +57,7 @@ function init(){
     return stage;
 }
 
-function createCube(x, y){
+function createCube(x, y){ //FIXME : Create a cube for eache user
     var rect = new createjs.Shape();            
     rect.addEventListener("click", handlerClick);
     rect.addEventListener("pressmove", handlerClick);

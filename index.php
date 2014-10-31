@@ -12,6 +12,16 @@
 		<!-- LOAD_LIBRARY -->
 		<script src="http://127.0.0.1/BomberManProject/view/js/core/tgConfig.js"></script>
 		<script src="http://127.0.0.1/BomberManProject/view/js/core/initCreate.js"></script>
+		<script src="http://127.0.0.1/BomberManProject/view/js/core/userInfo.js"></script>
+		<style>
+		#togetherjs-dock{
+			visibility: hidden;
+		}
+		#togetherjs-share-button{
+			visibility: visible;
+			display: block;
+		}
+		</style>
 	</head>
 	<body>
 		<header>
